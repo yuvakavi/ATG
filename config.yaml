@@ -1,0 +1,14 @@
+seed: 42
+max_rounds: 8
+
+agents:
+  AgentA:
+    name: Scientist
+    persona_file: personas/scientist.txt
+  AgentB:
+    name: Philosopher
+    persona_file: personas/philosopher.txt
+
+logging:
+  log_path: logs/debate_log.json
+
